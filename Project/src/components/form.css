@@ -1,0 +1,19 @@
+.aling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forms{
+ background: var(--dark-dark-700, #001119);
+}
+
+.inp{
+
+
+}
+
+.lbsty{
+
+}
