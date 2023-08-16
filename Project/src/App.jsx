@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-       <img src={logo} alt="" className='imgstyle'/>
+
         <Form/>
     </>
   )
