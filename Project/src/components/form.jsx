@@ -14,22 +14,22 @@ const form = () => {
                     <h2 className='texformats'>Crie sua conta </h2>
                       <div className='faixa'>
                         <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
-                        <input type="text" name='nome'  className='inpfaixa'/>
+                        <input type="text" name='nome'  className='inpfaixa' placeholder='Exemplo: Maria da Silva'/>
                       </div>
 
                       <div className='faixa'>
                         <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
-                        <input type="email" name='nome'  className='inpfaixa'/>
+                        <input type="email" name='nome'  className='inpfaixa' placeholder='Exemplo: exemplo@exemplo.com.br'/>
                       </div>
 
                       <div className='faixa'>
                         <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
-                        <input type="password" name='nome'  className='inpfaixa'/>
+                        <input type="password" name='nome'  className='inpfaixa' placeholder='No mínimo 6 caracteres '/>
                       </div>
 
                       <div className='btnfaixa'>
                                                                             
-                        <input type="submit" name='nome' className='btnfaixa'/>
+                        <button className='btnfaixa'> Cadastrar</button>
                       </div>
                 </form>
           </div>

@@ -4,14 +4,14 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
-  margin-top: -270px;
+  margin-top: -15%;
 }
 
 
 .alingimg img{
     margin: 10px;
     padding: 10px;
-    margin-top: 290px;
+    margin-top:22%;
     margin-left: 154px;
   }
 
@@ -50,16 +50,38 @@
   .inpfaixa{
     padding: 10px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 10px; 
+    width: 300px;
+    background-color:#0D1D25;
+    color: #7C7C8A;
+    border-radius: 3px;
+
   }
 
-  .btnfaixa{
+  .btnfaixa button{
     width:332px;
     height: 30px;
     margin-top: 30px;
     padding:10px;
+    background-color: #750310;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
   }
+
 
   .texfaixa{
     color: #FFF;
+  }
+
+  @media screen and (max-width: 1300px), (min-width:0px) {
+      .aling{
+        margin-top: -22%;
+      }
+  }
+
+  @media screen and (max-width:921px) {
+    .alingimg{
+     
+    }
   }
