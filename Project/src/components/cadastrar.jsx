@@ -1,8 +1,8 @@
 import React from 'react'
-import './form.css'
+import './cadastrar.css'
 import footerexport from '../assets/Group 5946.png'
 import { Link } from 'react-router-dom'
-const Form = () => {
+const cadastrar = () => {
   return (
     <div>
 
@@ -14,12 +14,12 @@ const Form = () => {
                 <form className=' forms'>
                     <h2 className='texformats'>Crie sua conta </h2>
                       <div className='faixa'>
-                        <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
+                        <label htmlFor="nome" className='texfaixa'>Email</label>
                         <input type="email" name='nome'  className='inpfaixa' placeholder='Exemplo: exemplo@exemplo.com.br'/>
                       </div>
 
                       <div className='faixa'>
-                        <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
+                        <label htmlFor="nome" className='texfaixa'> Senha</label>
                         <input type="password" name='nome'  className='inpfaixa' placeholder='No mínimo 6 caracteres '/>
                       </div>
 
@@ -38,4 +38,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default cadastrar

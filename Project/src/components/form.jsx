@@ -19,12 +19,12 @@ const Form = () => {
                       </div>
 
                       <div className='faixa'>
-                        <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
+                        <label htmlFor="nome" className='texfaixa'> Seu Email</label>
                         <input type="email" name='nome'  className='inpfaixa' placeholder='Exemplo: exemplo@exemplo.com.br'/>
                       </div>
 
                       <div className='faixa'>
-                        <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
+                        <label htmlFor="nome" className='texfaixa'> Sua Senha</label>
                         <input type="password" name='nome'  className='inpfaixa' placeholder='No mínimo 6 caracteres '/>
                       </div>
 

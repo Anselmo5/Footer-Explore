@@ -101,14 +101,22 @@
   }
 
 
-  @media screen and (max-width: 1300px), (min-width:0px) {
+  @media (max-width:1900px),(min-width:0px){
+    .aling{
+      margin-top: -25%;
+    }
+/* 
+    .alingimg{
+      margin-left: 5px;
+      margin-top: 20px;
+    } */
+  }
+
+  @media (max-width: 1300px){
       .aling{
         margin-top: -25%;
       }
-  }
 
-  @media screen and (max-width:921px) {
-    .alingimg{
-     
-    }
+  
   }
+ 
