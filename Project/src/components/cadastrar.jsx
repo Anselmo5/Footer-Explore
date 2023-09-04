@@ -15,11 +15,6 @@ const Form = () => {
                     <h2 className='texformats'>Crie sua conta </h2>
                       <div className='faixa'>
                         <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
-                        <input type="text" name='nome'  className='inpfaixa' placeholder='Exemplo: Maria da Silva'/>
-                      </div>
-
-                      <div className='faixa'>
-                        <label htmlFor="nome" className='texfaixa'> Seu Nome</label>
                         <input type="email" name='nome'  className='inpfaixa' placeholder='Exemplo: exemplo@exemplo.com.br'/>
                       </div>
 
@@ -33,7 +28,7 @@ const Form = () => {
                       </div>
 
                       <div className='alingtext'>
-                          <Link to="/cadastrar" className='formatedlink'> <p>Já Tenho Cadastro</p></Link>
+                          <Link to="/" className='formatedlink'> <p>Já Tenho Cadastro</p></Link>
                       </div>
                 </form>
           </div>

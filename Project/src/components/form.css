@@ -18,7 +18,7 @@
   
   .forms{
     background: var(--dark-dark-700, #001119);
-    padding: 10px;
+    padding:64px;
     width: calc(100% - 10px);
     max-width: 350px;
     height: 470px;
@@ -27,9 +27,10 @@
   }
 
   .texformats{
+    font-family:Poppins;
+    font-size: 32px;
+    text-align: center;
     color: var(--light-light-100, #FFF);
-   font-family: 'Poppins', sans-serif;
-   text-align: center;
   }
 
   .faixa{
@@ -48,10 +49,10 @@
   }
 
   .inpfaixa{
-    padding: 10px;
-    margin-left: 10px;
+    padding: 12px 14px;
     margin-top: 10px; 
-    width: 300px;
+    width: 320px;
+    border: none;
     background-color:#0D1D25;
     color: #7C7C8A;
     border-radius: 3px;
@@ -59,14 +60,18 @@
   }
 
   .btnfaixa button{
-    width:332px;
-    height: 30px;
-    margin-top: 30px;
-    padding:10px;
+    width:355px;
+    height: auto;
+    border: none;
+    margin-top: 20px;
+    padding: 12px 32px;
+    border-radius: 5px;
     background-color: #750310;
     color: #fff;
     font-family: Poppins;
+    font-weight: bolder;
     font-size: 14px;
+    
   }
 
 
@@ -74,9 +79,31 @@
     color: #FFF;
   }
 
+  .alingtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .alingtext p{
+    margin-top: 10px;
+    color: #FFF;
+  }
+
+  .alingtext a{
+    text-decoration: none;
+  }
+
+  .alingtext p:hover{
+    color: #ff0522;
+    transition: all 1s;
+  }
+
+
   @media screen and (max-width: 1300px), (min-width:0px) {
       .aling{
-        margin-top: -22%;
+        margin-top: -25%;
       }
   }
 
