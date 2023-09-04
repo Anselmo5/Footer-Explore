@@ -1,0 +1,24 @@
+{
+    "Cadastro":[
+
+        {
+            "Nome":"Anselmo",
+            "Email":"Anselmoreis@gmail.com",
+            "Senha":"1234"
+            
+        },
+
+        {
+            "Nome":"Bruno",
+            "Email":"Brunobandeira@gmail.com",
+            "Senha":"asd12"
+        },
+
+        {
+            "Nome":"Gabriel",
+            "Email":"Gabrilperreira@gmail.com",
+            "Senha":"cd124"
+        }
+
+    ]
+}
