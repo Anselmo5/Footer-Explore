@@ -59,14 +59,15 @@
 
   }
 
-  .btnfaixa button{
-    width:355px;
+  .btnfaixa a{
+    width:287px;
     height: auto;
     border: none;
     margin-top: 20px;
     padding: 12px 32px;
     border-radius: 5px;
     background-color: #750310;
+    text-decoration: none;
     color: #fff;
     font-family: Poppins;
     font-weight: bolder;

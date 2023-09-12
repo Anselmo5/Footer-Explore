@@ -2,28 +2,7 @@ import React from 'react'
 import './form.css'
 import footerexport from '../assets/Group 5946.png'
 import { Link } from 'react-router-dom'
-
-
-
 const Form = () => {
-  
-  let Nome= document.getElementById("nome")
-  let Email = document.getElementById("email")
-  let Senha = document.getElementById("senha")
-  let url = "./info.json"
-  fetch(url)// e utilizado para tratar arquivo
-      .then(res => res.json())
-      .then(data =>{
-        for(var Cadastro of data.Cadastrar){
-          {
-              Nome.value = Cadastro.Nome
-              Email.value = Cadastro.Email
-              Senha.value = Cadastro.Senha
-              break
-          }
-        }
-      })
-
   return (
     <div>
 
@@ -50,7 +29,7 @@ const Form = () => {
                       </div>
 
                       <div className='btnfaixa'>                                                     
-                        <button className='btnfaixa'> Criar conta </button>
+                          <Link to="/home" className='btnfaixa'> <p>Criar Conta</p> </Link>
                       </div>
 
                       <div className='alingtext'>

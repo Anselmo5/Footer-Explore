@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import App from "./App"
 import Casdastro from "./components/cadastrar"
+import Home from './components/Home'
 import "./index.css"
 
 const router = createBrowserRouter([
@@ -17,8 +18,15 @@ const router = createBrowserRouter([
   },
   {
     path: "cadastrar",
-    element: <Casdastro/>
+    element: <Casdastro/>,
   },
+
+  {
+    path: "home",
+    element:<Home/>,
+  },
+ 
+  
 ]);
 
 createRoot(document.getElementById("root")).render(
