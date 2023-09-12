@@ -14,7 +14,7 @@ const Home = () => {
                 <input type="text" placeholder='Busque por pratos ou ingredientes'  />
               </div>
               <div className='btn'>
-                <button>oi</button>
+                <button>Pedidos (0)</button>
               </div>
         </div>
       </nav>
