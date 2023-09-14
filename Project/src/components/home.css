@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&family=Roboto&display=swap');
+
 .alinhamento{
     display: flex;
     justify-content: space-between;
@@ -8,6 +10,21 @@ nav{
   position: fixed;
   z-index: 1;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 0 16px;
+  background:#00111A;
+  box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+}
+
+footer{
+  position: fixed;
+  z-index: 1;
+  top: 91%;
   left: 0;
   width: 100%;
   height: 90px;
@@ -60,3 +77,95 @@ nav{
     transform: translateY(-50%);
   }
   
+  .alin{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .alin img{
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .alin p{
+    margin: 5px;
+    color: #4D585E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+.alins{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.alins p{
+  color:#FFFAF1 ;
+  margin-right: 40px;
+}
+
+
+.alingcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.al{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.al h2{
+  margin-top: -280px;
+  margin-left: 380px;
+  font-family: Poppins;
+  font-size: 40px;
+  color: #E1E1E6;
+
+}
+
+.al p{
+  margin-top: -200px;
+  margin-left: 450px;
+  font-family: Poppins;
+  color: #E1E1E6;
+}
+
+.containerblock{
+  width: 1120px;
+  height: 260px;
+  background: var(--gradients-200, linear-gradient(180deg, #091E26 0%, #00131C 100%));
+  margin-top: 200px;
+}
+
+.containerblock img{
+  width: 51%;
+  margin-top: -109px;
+  margin-left: -60px;
+
+}
+
+@media screen and (max-width: 1300px) {
+  .alin p{
+    margin-top: -10px;
+  }
+
+  .alin img{
+    margin-top: -10px;
+  }
+
+  .alins p{
+    margin-top: -20px;
+  }
+
+}
