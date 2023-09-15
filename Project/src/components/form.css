@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 .aling{
   display:flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-top: -15%;
+  gap: 50px;
 }
 
 
 .alingimg img{
     margin: 10px;
-    padding: 10px;
-    margin-top:22%;
-    margin-left: 154px;
+    padding: 10px;  
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 100px;
   }
 
+  .aling{
+    height: 100svh;
+  }
   
   .forms{
     background: var(--dark-dark-700, #001119);
@@ -48,16 +52,18 @@
     flex-direction: column;
   }
 
-  .inpfaixa{
+  .inpfaixa {
     padding: 12px 14px;
     margin-top: 10px; 
-    width: 320px;
+    width:90% ;
     border: none;
     background-color:#0D1D25;
     color: #7C7C8A;
     border-radius: 3px;
 
   }
+
+
 
   .btnfaixa a{
     width:287px;
@@ -101,23 +107,10 @@
     transition: all 1s;
   }
 
-
-  @media (max-width:1900px),(min-width:0px){
+  @media screen and (max-width: 880px){
     .aling{
-      margin-top: -25%;
+      flex-direction: column;
     }
-/* 
-    .alingimg{
-      margin-left: 5px;
-      margin-top: 20px;
-    } */
   }
 
-  @media (max-width: 1300px){
-      .aling{
-        margin-top: -25%;
-      }
-
-  
-  }
  

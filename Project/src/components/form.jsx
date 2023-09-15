@@ -4,13 +4,13 @@ import footerexport from '../assets/Group 5946.png'
 import { Link } from 'react-router-dom'
 const Form = () => {
   return (
-    <div>
 
-          <div className='alingimg'>
-              <img src={footerexport} alt="" />
-          </div>
+          
 
           <div className='aling'>
+                <div className='alingimg'>
+                    <img src={footerexport} alt="" />
+                </div>
                 <form className=' forms'>
                     <h2 className='texformats'>Crie sua conta </h2>
                       <div className='faixa'>
@@ -38,7 +38,6 @@ const Form = () => {
                 </form>
           </div>
           
-    </div>
     
   ) 
   

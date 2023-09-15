@@ -6,29 +6,29 @@ const cadastrar = () => {
   return (
     <div>
 
-          <div className='alingimg'>
-              <img src={footerexport} alt="" />
-          </div>
-
-          <div className='aling'>
-                <form className=' forms'>
-                    <h2 className='texformats'>Crie sua conta </h2>
-                      <div className='faixa'>
+         
+          <div className='alings'>
+              <div className='alingimga'>
+                  <img src={footerexport} alt="" />
+              </div>
+                <form className=' form'>
+                    <h2 className='texformatst'>Crie sua conta </h2>
+                      <div className='faixas'>
                         <label htmlFor="nome" className='texfaixa'>Email</label>
-                        <input type="email" name='nome'  className='inpfaixa' placeholder='Exemplo: exemplo@exemplo.com.br'/>
+                        <input type="email" name='nome'  className='inpfaixas' placeholder='Exemplo: exemplo@exemplo.com.br'/>
                       </div>
 
-                      <div className='faixa'>
-                        <label htmlFor="nome" className='texfaixa'> Senha</label>
-                        <input type="password" name='nome'  className='inpfaixa' placeholder='No mínimo 6 caracteres '/>
+                      <div className='faixas'>
+                        <label htmlFor="nome" className='texfaixas'> Senha</label>
+                        <input type="password" name='nome'  className='inpfaixas' placeholder='No mínimo 6 caracteres '/>
                       </div>
 
-                      <div className='btnfaixa'>                                                     
+                      <div className='btnfaixas'>                                                     
                         <button className='btnfaixa'> Criar conta </button>
                       </div>
 
-                      <div className='alingtext'>
-                          <Link to="/" className='formatedlink'> <p>Já Tenho Cadastro</p></Link>
+                      <div className='alingtextst'>
+                          <Link to="/" className='formatedlinks'> <p>Já Tenho Cadastro</p></Link>
                       </div>
                 </form>
           </div>
