@@ -28,7 +28,7 @@ const cadastrar = () => {
                       </div>
 
                       <div className='alingtextst'>
-                          <Link to="/" className='formatedlinks'> <p>Já Tenho Cadastro</p></Link>
+                          <Link to="/adm" className='formatedlinks'> <p>Já Tenho Cadastro</p></Link>
                       </div>
                 </form>
           </div>

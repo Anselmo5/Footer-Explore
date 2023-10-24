@@ -21,8 +21,9 @@ const Home = () => {
           <div className='inp'>
             <input type="text" placeholder='Busque por pratos ou ingredientes' />
           </div>
+          
           <div className='btn'>
-            <button>Pedidos (0)</button>
+            <button>Novo Prato</button>
           </div>
         </div>
       </nav>

@@ -9,6 +9,7 @@ import {
 import App from "./App"
 import Casdastro from "./components/cadastrar"
 import Home from './components/Home'
+import ADM  from './components/adm'
 import "./index.css"
 
 const router = createBrowserRouter([
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
     path: "home",
     element:<Home/>,
   },
+  {
+    path:"adm",
+    element:<ADM/>
+    
+  }
  
   
 ]);

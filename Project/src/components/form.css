@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
 .aling{
   display:flex;
   justify-content: space-between;
@@ -31,7 +34,7 @@
   }
 
   .texformats{
-    font-family:Poppins;
+    font-family: 'Alata', sans-serif;
     font-size: 32px;
     text-align: center;
     color: var(--light-light-100, #FFF);
@@ -75,7 +78,7 @@
     background-color: #750310;
     text-decoration: none;
     color: #fff;
-    font-family: Poppins;
+    font-family: 'Alata', sans-serif;
     font-weight: bolder;
     font-size: 14px;
     

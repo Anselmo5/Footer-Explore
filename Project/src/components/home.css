@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 .alinhamento{
     display: flex;
     justify-content: space-between;
@@ -34,6 +34,7 @@ footer{
   padding: 0 24px 0 16px;
   background:#00111A;
   box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+  font-family: 'Alata', sans-serif;
 }
 
  .alinhamentoimg img{
@@ -51,6 +52,7 @@ footer{
     color: #7C7C8A;
     border-radius: 5px;
     margin-top: 14px;
+    font-family: 'Alata', sans-serif;
 }
 
 .btn button{
@@ -62,6 +64,7 @@ footer{
   border-radius: 5px;
   color: #fff;
   background-color: #750310;
+  font-family: 'Alata', sans-serif;
  
 }
 
@@ -142,16 +145,18 @@ footer{
 }
 
 .containerblock{
-  width: 1120px;
-  height: 260px;
+  height: 35vh;
+  width: calc(100% - 1px);
+  max-width: 75vw;
   background: var(--gradients-200, linear-gradient(180deg, #091E26 0%, #00131C 100%));
-  margin-top: 200px;
+  margin-top: 220px;
+  border-radius: 5px;
 }
 
 .containerblock img{
   width: 51%;
-  margin-top: -109px;
-  margin-left: -60px;
+  margin-top: -87px;
+  margin-left: -70px;
 
 }
 
