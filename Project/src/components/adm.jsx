@@ -1,5 +1,5 @@
 import React from 'react'
-import "./home.css"
+import "./adm.css"
 import footerexport from '../assets/Group 5946.png'
 import logo from '../assets/Polygon 1.png'
 import logo2 from '../assets/pngegg 1.png'
@@ -13,16 +13,16 @@ const Home = () => {
   return (
     <div>
       <nav>
-        <div className='alinhamento'>
+        <div className='alinhamentoadm'>
 
-          <div className='alinhamentoimg'>
+          <div className='alinhamentoimgadm'>
             <img src={footerexport} alt="" />
           </div>
-          <div className='inp'>
+          <div className='inpadm'>
             <input type="text" placeholder='Busque por pratos ou ingredientes' />
           </div>
-          
-          <div className='btn'>
+
+          <div className='btnadm'>
             <button>Novo Prato</button>
           </div>
         </div>
@@ -30,15 +30,15 @@ const Home = () => {
 
 
 
-      <div className='alingcontainer'>
-        <div className='containerblock'>
+      <div className='alingcontaineradm'>
+        <div className='containerblockadm'>
           <img src={logo2} alt="" />
 
-          <div className='al'>
+          <div className='aladm'>
             <h2>Sabores inigualáveis</h2>
 
           </div>
-          <div className='al'>
+          <div className='aladm'>
             <p>Sinta o cuidado do preparo com ingredientes selecionados</p>
           </div>
         </div>
@@ -51,12 +51,12 @@ const Home = () => {
   {/* fim cards */}
 
       <footer>
-        <div className='alin'>
+        <div className='alinadm'>
           <img src={logo} alt='' />
           <p> food explorer</p>
         </div>
 
-        <div className='alins'>
+        <div className='alinsadm'>
           <p> © 2023 - Todos os direitos reservados</p>
         </div>
       </footer>
