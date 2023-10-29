@@ -1,13 +1,14 @@
 import React from 'react'
 import "./adm.css"
-import footerexport from '../assets/Group 5946.png'
+import logoadm from '../assets/Frame.png'
 import logo from '../assets/Polygon 1.png'
 import logo2 from '../assets/pngegg 1.png'
+import { Link } from 'react-router-dom'
 import Slider from 'react-slick'
 
         
 
-const Home = () => {
+const Adm = () => {
 
 
   return (
@@ -16,14 +17,14 @@ const Home = () => {
         <div className='alinhamentoadm'>
 
           <div className='alinhamentoimgadm'>
-            <img src={footerexport} alt="" />
+            <img src={logoadm} alt="" />
           </div>
           <div className='inpadm'>
             <input type="text" placeholder='Busque por pratos ou ingredientes' />
           </div>
 
           <div className='btnadm'>
-            <button>Novo Prato</button>
+              <Link to="/pedido"> Novo Prato</Link>
           </div>
         </div>
       </nav>
@@ -64,4 +65,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Adm

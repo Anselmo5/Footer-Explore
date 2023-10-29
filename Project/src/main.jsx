@@ -10,6 +10,7 @@ import App from "./App"
 import Casdastro from "./components/cadastrar"
 import Home from './components/Home'
 import ADM  from './components/adm'
+import PEDIDO from './components/pedido'
 import "./index.css"
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
     path:"adm",
     element:<ADM/>
     
+  },
+  {
+    path:"Pedido",
+    element:<PEDIDO/>
   }
  
   

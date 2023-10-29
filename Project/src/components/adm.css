@@ -47,26 +47,31 @@ footer{
 }
 
 .inpadm input{
-    padding: 12px 14px;
+    padding: 14px 14px;
     width: 510px;
     border: none;
     background-color:#0D1D25;
     color: #7C7C8A;
     border-radius: 5px;
-    margin-top: 14px;
+    margin-top: 12px;
     font-family: 'Alata', sans-serif;
 }
 
-.btnadm button{
+
+.btnadm{
+  margin-top: 24px;
+}
+
+.btnadm a{
   width: 216px;
-  margin-top: 13px;
   margin-left: 10px;
-  padding: 12px 32px;
+  padding: 13px 32px;
   border: none;
   border-radius: 5px;
   color: #fff;
   background-color: #750310;
   font-family: 'Alata', sans-serif;
+  text-decoration: none;
  
 }
  

@@ -24,11 +24,11 @@ const cadastrar = () => {
                       </div>
 
                       <div className='btnfaixas'>                                                     
-                        <button className='btnfaixa'> Criar conta </button>
+                        <Link to="/adm" className='btnfaixa'> Criar conta </Link>
                       </div>
 
                       <div className='alingtextst'>
-                          <Link to="/adm" className='formatedlinks'> <p>Já Tenho Cadastro</p></Link>
+                          <Link to="/" className='formatedlinks'> <p>Já Tenho Cadastro</p></Link>
                       </div>
                 </form>
           </div>

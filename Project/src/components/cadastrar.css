@@ -63,12 +63,13 @@
     background-color:#0D1D25;
     color: #7C7C8A;
     border-radius: 3px;
+    border: 2px solid; 
 
   }
 
 
-  .btnfaixas button{
-    width:355px;
+  .btnfaixas a{
+    width:290px;
     height: auto;
     border: none;
     margin-top: 20px;
@@ -78,7 +79,9 @@
     color: #fff;
     font-family: 'Alata', sans-serif;
     font-weight: bolder;
+    text-decoration:none ;
     font-size: 14px;
+    
     
   }
 
