@@ -1,67 +1,198 @@
-nav{    
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 24px 0 16px;
-    background:#00111A;
-    box-shadow: 0 0 20px rgb(0 0 0 / 8%);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9x;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 0 16px;
+  background: #00111A;
+  box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+}
+
+footer {
+  position: fixed;
+  z-index: 1;
+  top: 91%;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 0 16px;
+  background: #00111A;
+  box-shadow: 0 0 20px rgb(0 0 0 / 8%)
+}
+
   
-  footer{
-    position: fixed;
-    z-index: 1;
-    top: 91%;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 24px 0 16px;
-    background:#00111A;
-    box-shadow: 0 0 20px rgb(0 0 0 / 8%)
-  }
-  
-   .alinhamentoimgpedi img{
-      width:10rem;
-      padding: 10px;
-      margin-top: 10px;
-      
-  }
+.alinp{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.alinp img{
+  padding: 10px;
+  margin: 5px;
+  margin-bottom: 22px;
+}
+
+.alinp p{
+  margin: 5px;
+  color: #4D585E;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+
+}
+
+.alinsp{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+
+.alinsp p{
+color:#FFFAF1 ;
+margin-right: 40px;
+margin-bottom: 20px;
+}
 
 
-  .alingpedi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:row;
-  }
+.alinhamentoimgpedi img {
+  width: 10rem;
+  padding: 10px;
+  margin-top: 10px;
 
-  .inppedi input{
-    margin-bottom: 5px;
-    padding: 4px;
-    width: calc(100% -10px);
-    max-width:300px;
-    height: 25px;
-  }
+}
 
-  .btnpedi{
-    margin-bottom: 4px;
-    padding: 10px;
 
-  }
+.alingpedi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 
-  .btnpedi a{
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
-    width: calc(100% -10px);
-    max-width: 200px;
-    background-color:#750310;
-  }
+
+.inppedi input {
+  margin-bottom: 5px;
+  padding: 12px 14px;
+  width: 500px;
+  height: 25px;
+  background: #0D1D25;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+}
+
+
+.btnpedi {
+  margin-bottom: 4px;
+  padding: 10px;
+}
+
+.btnpedi a {
+  text-decoration: none;
+  color: #fff;
+  width: calc(100% -10px);
+  max-width: 216px;
+  padding: 17px 32px;
+  border-radius: 5px;
+  background-color: #750310;
+  margin-left: 13px;
+}
+
+.saidaicon img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.voltar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+
+.voltar img {
+  width: 20px;
+}
+
+.voltar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: Poppins;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.conteudo img {
+  margin: 5px;
+  padding: 5px;
+}
+
+.alingconteudo {
+  margin-bottom: 100px;
+  margin-left: 128px;
+}
+
+.alingconteudo h2 {
+  color: #E1E1E6;
+  font-size: 40px;
+  font-family: Poppins;
+}
+
+.alingconteudo p {
+  color: #E1E1E6;
+  font-family: Poppins;
+  font-size: 27px;
+}
+
+.incredientes button {
+  font-family: Poppins;
+  background: #192227;
+  border-radius:5px;
+  padding: 4px 8px;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 5px;
+  border: none;
+}
+
+.Edit{
+  margin: 5px;
+  background: #750310;
+  padding: 12px 24px;
+  width: 131px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+
+.Edit a{
+  text-decoration: none;
+  font-family: Poppins;
+  color: #FFFFFF;
+}

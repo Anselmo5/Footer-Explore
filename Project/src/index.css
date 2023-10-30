@@ -3,6 +3,8 @@
 padding: 0;}
 
 body {
-  background: var(--dark-dark-400, #000A0F);
+  background: var(--dark-dark-400, #000A0F); 
+  width: 100vw;
+  height: 100vh;
 }
 

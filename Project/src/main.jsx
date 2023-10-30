@@ -9,35 +9,38 @@ import {
 import App from "./App"
 import Casdastro from "./components/cadastrar"
 import Home from './components/Home'
-import ADM  from './components/adm'
+import ADM from './components/adm'
 import PEDIDO from './components/pedido'
+import edite from './components/edit'
 import "./index.css"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
   },
   {
     path: "cadastrar",
-    element: <Casdastro/>,
+    element: <Casdastro />,
   },
 
   {
     path: "home",
-    element:<Home/>,
+    element: <Home/>,
   },
   {
-    path:"adm",
-    element:<ADM/>
-    
+    path: "adm",
+    element: <ADM />
+
   },
   {
-    path:"Pedido",
-    element:<PEDIDO/>
-  }
- 
-  
+    path: "Pedido",
+    element: <PEDIDO />
+  },
+  {
+    path:'editar',
+    element:<edite/>
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
