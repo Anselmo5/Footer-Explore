@@ -71,7 +71,9 @@ const Adm = () => {
         <div className='corpo'>
           <div className='cards'>
             <div className='iconcard'>
-              <img src={edite} alt="" />
+              <Link to='/Pedido2'>
+                  <img src={edite} alt="" />
+              </Link>
             </div>
             <div className='conteudocard'>
               <img src={comidacard2} alt="" />
@@ -86,7 +88,9 @@ const Adm = () => {
         <div className='corpo'>
           <div className='cards'>
             <div className='iconcard'>
-              <img src={edite} alt="" />
+              <Link to='/Pedido3'>
+                  <img src={edite} alt="" />
+              </Link>
             </div>
             <div className='conteudocard'>
               <img src={comidacard3} alt="" />

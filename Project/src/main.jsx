@@ -11,7 +11,9 @@ import Casdastro from "./components/cadastrar"
 import Home from './components/Home'
 import ADM from './components/adm'
 import PEDIDO from './components/pedido'
-import edite from './components/edit'
+import PEDIDO2 from './components/pedido2'
+import PEDIDO3 from './components/pedido3'
+import EDITE from './components/edit'
 import "./index.css"
 
 const router = createBrowserRouter([
@@ -36,10 +38,18 @@ const router = createBrowserRouter([
   {
     path: "Pedido",
     element: <PEDIDO />
+  },{
+    path: "Pedido2",
+    element: <PEDIDO2/>
   },
   {
-    path:'editar',
-    element:<edite/>
+    path: "Pedido3",
+    element: <PEDIDO3/>
+  },
+
+  {
+    path:'edit',
+    element:<EDITE/>
   }
 ]);
 
