@@ -6,6 +6,8 @@ import logo2 from '../assets/pngegg 1.png'
 import { Link } from 'react-router-dom'
 import edite from '../assets/editar.png'
 import comidacard from '../assets/comidacard.png'
+import comidacard2 from '../assets/comidacard2.png'
+import comidacard3 from '../assets/comidacard3.png'
 import Slider from 'react-slick'
 
 
@@ -26,7 +28,7 @@ const Adm = () => {
           </div>
 
           <div className='btnadm'>
-            <Link to="/pedido"> Novo Prato</Link>
+            <Link to=""> Novo Prato</Link>
           </div>
         </div>
       </nav>
@@ -53,7 +55,9 @@ const Adm = () => {
         <div className='corpo'>
           <div className='cards'>
             <div className='iconcard'>
-              <img src={edite} alt="" />
+              <Link to="/pedido ">
+                <img src={edite} alt="" />
+              </Link>
             </div>
             <div className='conteudocard'>
               <img src={comidacard} alt="" />
@@ -70,10 +74,10 @@ const Adm = () => {
               <img src={edite} alt="" />
             </div>
             <div className='conteudocard'>
-              <img src="" alt="" />
-              <h3></h3>
-              <p></p>
-              <h1></h1>
+              <img src={comidacard2} alt="" />
+              <h3>Spaguetti Gambe</h3>
+              <p>Massa fresca com camarões e pesto. </p>
+              <h1>R$ 79,97  </h1>
             </div>
           </div>
         </div>
@@ -85,10 +89,10 @@ const Adm = () => {
               <img src={edite} alt="" />
             </div>
             <div className='conteudocard'>
-              <img src="" alt="" />
-              <h3></h3>
-              <p></p>
-              <h1></h1>
+              <img src={comidacard3} alt="" />
+              <h3>Torradas de Parma</h3>
+              <p>Presunto de parma e rúcula em um pão com fermentação natural.</p>
+              <h1>R$ 25,97</h1>
             </div>
           </div>
         </div>
