@@ -40,7 +40,7 @@ const router = createBrowserRouter([
   {
     path:'editar',
     element:<edite/>
-  },
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
