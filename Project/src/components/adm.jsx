@@ -27,8 +27,8 @@ const Adm = () => {
             <input type="text" placeholder='Busque por pratos ou ingredientes' />
           </div>
 
-          <div className='btnadm'>
-            <Link to=""> Novo Prato</Link>
+          <div className='btn'>
+            <Link to='/enviarpedido'> Pedidos (0)</Link>
           </div>
         </div>
       </nav>

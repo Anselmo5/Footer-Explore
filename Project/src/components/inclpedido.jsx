@@ -1,15 +1,15 @@
 import React from 'react'
-import './pedido.css'
 import { Link } from 'react-router-dom'
 import logoadm from '../assets/Frame.png'
 import saida from '../assets/sair.png'
-import setasaida from '../assets/seta-esquerda.png'
-import comida from '../assets/comida.png'
-import logo from '../assets/Polygon 1.png'
 
-const pedido = () => {
+import comida4  from '../assets/comida4.png'
+import logo from '../assets/Polygon 1.png'
+import './pedido.css'
+const inclpedido = () => {
   return (
     <div>
+             <div>
       <nav>
         <div className='alingpedi'>
 
@@ -27,7 +27,7 @@ const pedido = () => {
           </div>
 
           <div className="saidaicon">
-            <Link to='/cadastrar'>
+            <Link to='/'>
               <img src={saida} alt="" />
             </Link>
           </div>
@@ -38,25 +38,22 @@ const pedido = () => {
 
       <div className="voltar">
         <img src={setasaida} alt="" />
-        <Link to='/adm'>Voltar</Link>
+        <Link to='/home'>Voltar</Link>
       </div>
 
       <div className='conteudo'>
-        <img src={comida} alt="" />
+        <img src={comida4} alt="" />
         <div className='alingconteudo'>
-          <div> <h2>Salada Ravanello</h2> </div>
-          <div> <p>Rabanetes, folhas verdes e molho agridoce salpicados com gergelim. O pão naan dá um toque especial.</p> </div>
+          <div> <h2>Prugna Pie</h2> </div>
+          <div> <p>Torta de ameixa com massa amanteigada, polvilho em açúcar.</p> </div>
           <div className='incredientes'>
-            <button>alface</button>
-            <button>cebola</button>
-            <button>pão naan</button>
-            <button>pepino</button>
-            <button>rabanete</button>
-            <button>tomate</button>
+            <button>ameixa</button>
+            <button>massa amanteigada</button>
+            <button>polvilho</button>
           </div>
 
           <div className='Edit'>
-            <Link to='/Edite'> Editar prato</Link>
+            <Link>Incluir</Link>
           </div>
         </div>
       </div>
@@ -73,7 +70,8 @@ const pedido = () => {
       </footer>
 
     </div>
+    </div>
   )
 }
 
-export default pedido
+export default inclpedido

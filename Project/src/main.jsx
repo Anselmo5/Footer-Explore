@@ -13,8 +13,15 @@ import ADM from './components/adm'
 import PEDIDO from './components/pedido'
 import PEDIDO2 from './components/pedido2'
 import PEDIDO3 from './components/pedido3'
-import EDITE from './components/edit'
+import EDITE from './components/edite'
+import Inclpedido from "./components/inclpedido";
+import Inclpedido2 from "./components/inclpedido2";
+import Inclpedido3 from "./components/inclpedido3";
+import Enviarpedido from "./components/enviarpedido";
 import "./index.css"
+
+
+
 
 const router = createBrowserRouter([
   {
@@ -46,10 +53,26 @@ const router = createBrowserRouter([
     path: "Pedido3",
     element: <PEDIDO3/>
   },
+  {
+    path: "Edite",
+    element: <EDITE/>
+  },
 
   {
-    path:'edit',
-    element:<EDITE/>
+    path:'incli1',
+    element:<Inclpedido/>
+  },
+  {
+    path:'incli2',
+    element:<Inclpedido2/>
+  },
+  {
+    path:'incli3',
+    element:<Inclpedido3/>
+  },
+  {
+    path:'enviarpedido',
+    element:<Enviarpedido/>
   }
 ]);
 

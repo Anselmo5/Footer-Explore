@@ -54,7 +54,7 @@ const pedido3 = () => {
           </div>
 
           <div className='Edit'>
-            <Link to='/editar'> Editar prato</Link>
+            <Link to='/Edite'> Editar prato</Link>
           </div>
         </div>
       </div>

@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 import logoadm from '../assets/Frame.png'
 import saida from '../assets/sair.png'
 import setasaida from '../assets/seta-esquerda.png'
-import comida from '../assets/comida.png'
+import comida6  from '../assets/comida6.png'
 import logo from '../assets/Polygon 1.png'
-
-const pedido = () => {
+const inclpedido3 = () => {
   return (
     <div>
+         <div>
       <nav>
         <div className='alingpedi'>
 
@@ -27,7 +27,7 @@ const pedido = () => {
           </div>
 
           <div className="saidaicon">
-            <Link to='/cadastrar'>
+            <Link to='/'>
               <img src={saida} alt="" />
             </Link>
           </div>
@@ -38,25 +38,23 @@ const pedido = () => {
 
       <div className="voltar">
         <img src={setasaida} alt="" />
-        <Link to='/adm'>Voltar</Link>
+        <Link to='/home'>Voltar</Link>
       </div>
 
       <div className='conteudo'>
-        <img src={comida} alt="" />
+        <img src={comida6} alt="" />
         <div className='alingconteudo'>
-          <div> <h2>Salada Ravanello</h2> </div>
-          <div> <p>Rabanetes, folhas verdes e molho agridoce salpicados com gergelim. O pão naan dá um toque especial.</p> </div>
+          <div> <h2>Macarons</h2> </div>
+          <div> <p>Farinha de amêndoas, manteiga, claras e açúcar.</p> </div>
           <div className='incredientes'>
-            <button>alface</button>
-            <button>cebola</button>
-            <button>pão naan</button>
-            <button>pepino</button>
-            <button>rabanete</button>
-            <button>tomate</button>
+            <button>Farinha de amêndoas</button>
+            <button>manteiga</button>
+            <button>claras</button>
+            <button>açúcar</button>
           </div>
 
           <div className='Edit'>
-            <Link to='/Edite'> Editar prato</Link>
+            <Link>Incluir</Link>
           </div>
         </div>
       </div>
@@ -73,7 +71,8 @@ const pedido = () => {
       </footer>
 
     </div>
+    </div>
   )
 }
 
-export default pedido
+export default inclpedido3
