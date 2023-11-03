@@ -108,6 +108,7 @@ const edite = () => {
         </div>
       </div>
       {/* fim form */}
+    <div className='editefooter'>
       <footer>
         <div className='alinadm'>
           <img src={logo} alt='' />
@@ -118,7 +119,7 @@ const edite = () => {
           <p> © 2023 - Todos os direitos reservados</p>
         </div>
       </footer>
-
+  </div>
     </div>
   )
 }

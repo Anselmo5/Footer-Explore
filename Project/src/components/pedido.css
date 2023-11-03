@@ -196,3 +196,8 @@ margin-bottom: 20px;
   font-family: Poppins;
   color: #FFFFFF;
 }
+
+.imgincli img{
+  width: 160px;
+  padding: 10px;
+}

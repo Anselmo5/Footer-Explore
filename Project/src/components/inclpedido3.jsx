@@ -5,6 +5,7 @@ import logoadm from '../assets/Frame.png'
 import saida from '../assets/sair.png'
 import setasaida from '../assets/seta-esquerda.png'
 import comida6  from '../assets/comida6.png'
+import footerexport from '../assets/Group 5946.png'
 import logo from '../assets/Polygon 1.png'
 const inclpedido3 = () => {
   return (
@@ -13,8 +14,9 @@ const inclpedido3 = () => {
       <nav>
         <div className='alingpedi'>
 
-
-          <img src={logoadm} alt="" />
+        <div className='imgincli'>
+            <img src={footerexport} alt="" />
+          </div>
           <div className='inppedi'>
             <input
               type="text"

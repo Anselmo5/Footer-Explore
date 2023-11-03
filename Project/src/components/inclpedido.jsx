@@ -2,9 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logoadm from '../assets/Frame.png'
 import saida from '../assets/sair.png'
-
+import setasaida from '../assets/seta-esquerda.png'
 import comida4  from '../assets/comida4.png'
 import logo from '../assets/Polygon 1.png'
+import footerexport from '../assets/Group 5946.png'
 import './pedido.css'
 const inclpedido = () => {
   return (
@@ -13,8 +14,9 @@ const inclpedido = () => {
       <nav>
         <div className='alingpedi'>
 
-
-          <img src={logoadm} alt="" />
+          <div className='imgincli'>
+            <img src={footerexport} alt="" />
+          </div>
           <div className='inppedi'>
             <input
               type="text"

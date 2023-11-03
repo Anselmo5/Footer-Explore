@@ -103,7 +103,7 @@ const Adm = () => {
       </div>
 
       {/* fim cards */}
-
+  <div className='editfooter'>
       <footer>
         <div className='alinadm'>
           <img src={logo} alt='' />
@@ -114,6 +114,7 @@ const Adm = () => {
           <p> © 2023 - Todos os direitos reservados</p>
         </div>
       </footer>
+   </div>   
     </div>
   )
 }

@@ -116,7 +116,7 @@ const Home = () => {
       </div>
     
   {/* fim cards */}
-
+  <div className='editfooter'>
       <footer>
         <div className='alin'>
           <img src={logo} alt='' />
@@ -127,6 +127,7 @@ const Home = () => {
           <p> © 2023 - Todos os direitos reservados</p>
         </div>
       </footer>
+  </div>
     </div>
   )
 }
